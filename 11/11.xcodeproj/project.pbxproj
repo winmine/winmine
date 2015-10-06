@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE702EF41BC12D4400056738 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BE702EF31BC12D4400056738 /* main.c */; };
-		BE702F0F1BC425DA00056738 /* winmine.c in Sources */ = {isa = PBXBuildFile; fileRef = BE702F0D1BC425DA00056738 /* winmine.c */; settings = {ASSET_TAGS = (); }; };
+		BE702F1D1BC4285300056738 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BE702F1C1BC4285300056738 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BE702EEE1BC12D4400056738 /* CopyFiles */ = {
+		BE702F171BC4285300056738 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BE702EF01BC12D4400056738 /* x-cross */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "x-cross"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE702EF31BC12D4400056738 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		BE702F0D1BC425DA00056738 /* winmine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = winmine.c; sourceTree = "<group>"; };
-		BE702F0E1BC425DA00056738 /* winmine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winmine.h; sourceTree = "<group>"; };
+		BE702F191BC4285300056738 /* 11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 11; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE702F1C1BC4285300056738 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BE702EED1BC12D4400056738 /* Frameworks */ = {
+		BE702F161BC4285300056738 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,97 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE702EE71BC12D4400056738 = {
+		BE702F101BC4285300056738 = {
 			isa = PBXGroup;
 			children = (
-				BE702EF21BC12D4400056738 /* x-cross */,
-				BE702EF11BC12D4400056738 /* Products */,
+				BE702F1B1BC4285300056738 /* 11 */,
+				BE702F1A1BC4285300056738 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BE702EF11BC12D4400056738 /* Products */ = {
+		BE702F1A1BC4285300056738 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE702EF01BC12D4400056738 /* x-cross */,
+				BE702F191BC4285300056738 /* 11 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE702EF21BC12D4400056738 /* x-cross */ = {
+		BE702F1B1BC4285300056738 /* 11 */ = {
 			isa = PBXGroup;
 			children = (
-				BE702EF31BC12D4400056738 /* main.c */,
-				BE702F0D1BC425DA00056738 /* winmine.c */,
-				BE702F0E1BC425DA00056738 /* winmine.h */,
+				BE702F1C1BC4285300056738 /* main.c */,
 			);
-			path = "x-cross";
+			path = 11;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE702EEF1BC12D4400056738 /* x-cross */ = {
+		BE702F181BC4285300056738 /* 11 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE702EF71BC12D4400056738 /* Build configuration list for PBXNativeTarget "x-cross" */;
+			buildConfigurationList = BE702F201BC4285300056738 /* Build configuration list for PBXNativeTarget "11" */;
 			buildPhases = (
-				BE702EEC1BC12D4400056738 /* Sources */,
-				BE702EED1BC12D4400056738 /* Frameworks */,
-				BE702EEE1BC12D4400056738 /* CopyFiles */,
+				BE702F151BC4285300056738 /* Sources */,
+				BE702F161BC4285300056738 /* Frameworks */,
+				BE702F171BC4285300056738 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "x-cross";
-			productName = "x-cross";
-			productReference = BE702EF01BC12D4400056738 /* x-cross */;
+			name = 11;
+			productName = 11;
+			productReference = BE702F191BC4285300056738 /* 11 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BE702EE81BC12D4400056738 /* Project object */ = {
+		BE702F111BC4285300056738 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = winmine;
 				TargetAttributes = {
-					BE702EEF1BC12D4400056738 = {
+					BE702F181BC4285300056738 = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
-			buildConfigurationList = BE702EEB1BC12D4400056738 /* Build configuration list for PBXProject "x-cross" */;
+			buildConfigurationList = BE702F141BC4285300056738 /* Build configuration list for PBXProject "11" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = BE702EE71BC12D4400056738;
-			productRefGroup = BE702EF11BC12D4400056738 /* Products */;
+			mainGroup = BE702F101BC4285300056738;
+			productRefGroup = BE702F1A1BC4285300056738 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE702EEF1BC12D4400056738 /* x-cross */,
+				BE702F181BC4285300056738 /* 11 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BE702EEC1BC12D4400056738 /* Sources */ = {
+		BE702F151BC4285300056738 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE702EF41BC12D4400056738 /* main.c in Sources */,
-				BE702F0F1BC425DA00056738 /* winmine.c in Sources */,
+				BE702F1D1BC4285300056738 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BE702EF51BC12D4400056738 /* Debug */ = {
+		BE702F1E1BC4285300056738 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -173,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		BE702EF61BC12D4400056738 /* Release */ = {
+		BE702F1F1BC4285300056738 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,14 +202,14 @@
 			};
 			name = Release;
 		};
-		BE702EF81BC12D4400056738 /* Debug */ = {
+		BE702F211BC4285300056738 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		BE702EF91BC12D4400056738 /* Release */ = {
+		BE702F221BC4285300056738 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -225,25 +219,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE702EEB1BC12D4400056738 /* Build configuration list for PBXProject "x-cross" */ = {
+		BE702F141BC4285300056738 /* Build configuration list for PBXProject "11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE702EF51BC12D4400056738 /* Debug */,
-				BE702EF61BC12D4400056738 /* Release */,
+				BE702F1E1BC4285300056738 /* Debug */,
+				BE702F1F1BC4285300056738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE702EF71BC12D4400056738 /* Build configuration list for PBXNativeTarget "x-cross" */ = {
+		BE702F201BC4285300056738 /* Build configuration list for PBXNativeTarget "11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE702EF81BC12D4400056738 /* Debug */,
-				BE702EF91BC12D4400056738 /* Release */,
+				BE702F211BC4285300056738 /* Debug */,
+				BE702F221BC4285300056738 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BE702EE81BC12D4400056738 /* Project object */;
+	rootObject = BE702F111BC4285300056738 /* Project object */;
 }
